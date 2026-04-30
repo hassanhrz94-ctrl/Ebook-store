@@ -3,6 +3,13 @@ const nextConfig = {
   /* config options here */
   
   reactCompiler: true,
+   images: {
+    remotePatterns: [
+      {
+        hostname: 'covers.openlibrary.org'
+      }
+    ]
+  }
 };
 
 export default nextConfig;
