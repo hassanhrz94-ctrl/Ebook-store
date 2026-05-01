@@ -16,6 +16,8 @@ import {
 import { useRouter } from "next/navigation";
 
 
+import { GrGoogle } from "react-icons/gr";
+
 export default function SignUpPage() {
    const router = useRouter()
   const onSubmit = async (e) => {
@@ -41,6 +43,9 @@ export default function SignUpPage() {
       if(!error) {
         router.push('/')
     }
+   
+    
+  
 
 }
 
@@ -116,6 +121,9 @@ export default function SignUpPage() {
           </Button>
         </div>
       </Form>
+       <p className="text-center">Or</p>
+
+     
     </Card>
   );
 }
