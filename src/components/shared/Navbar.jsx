@@ -3,22 +3,26 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div>
-              <nav className="w-full flex items-center justify-between px-6 md:px-12 py-4">
-      <h1 className=" text-xl font-semibold">ebook</h1>
+        <nav className="w-full flex items-center justify-between px-6 md:px-12 py-4">
+            
+            <h1 className="text-xl font-semibold">ebook</h1>
 
-      <ul className="hidden md:flex gap-8 text-sm font-medium">
-        <Link href={'/home'}><li className="cursor-pointer">Home</li></Link>
-        <Link href={'/allBooks'}><li className="cursor-pointer">All Books</li></Link>
-      </ul>
+            <ul className="hidden md:flex gap-8 text-sm font-medium">
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/allBooks">All Books</Link></li>
+                <li><Link href="/profile">Profile</Link></li>
+            </ul>
 
-      <button className="bg-white text-pink-500 px-4 py-1 rounded-md text-sm font-medium">
-        Login
-      </button>
-    </nav>
-    
-        </div>
-        
+            <div className='flex gap-3'>
+                <Link href={"/signup"} className="btn btn-primary">
+                    Register
+                </Link>
+
+                <Link href={"/signin"} className="btn btn-outline">
+                    Sign In
+                </Link>
+            </div>
+        </nav>
     );
 };
 
