@@ -6,7 +6,9 @@ const BookPage = async() => {
     const books =await res.json()
     console.log(books)
     return (
-        <div className='grid grid-cols-3'>
+        <div className='grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-10'>
+
+          
     
     {
         books.slice(0,6).map(book=><BookCard key={book.id} book={book}></BookCard>)

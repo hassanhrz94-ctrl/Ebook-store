@@ -6,12 +6,10 @@ const BookCard = ({ book }) => {
   const { id, title, author, category, available_quantity, image_url } = book;
 
   return (
+    
     <div className="max-w-sm mx-auto mt-10">
     
-      <h2 className="text-3xl font-bold text-center mb-6">
-        Featured Books
-      </h2>
-
+     
      
       <div className="bg-white shadow-lg rounded-2xl overflow-hidden hover:shadow-2xl transition duration-300">
         

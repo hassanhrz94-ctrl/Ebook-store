@@ -7,7 +7,7 @@ const Navbar = () => {
               <nav className="w-full flex items-center justify-between px-6 md:px-12 py-4">
       <h1 className=" text-xl font-semibold">ebook</h1>
 
-      <ul className="hidden md:flex gap-8 text-white text-sm font-medium">
+      <ul className="hidden md:flex gap-8 text-sm font-medium">
         <Link href={'/home'}><li className="cursor-pointer">Home</li></Link>
         <Link href={'/allBooks'}><li className="cursor-pointer">All Books</li></Link>
       </ul>
