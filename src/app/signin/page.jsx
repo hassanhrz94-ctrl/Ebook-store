@@ -40,7 +40,7 @@ export default function SignInPage() {
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
-      <h1 className="text-center text-2xl font-bold">Sign In</h1>
+      <h1 className="text-center text-2xl font-bold">Log In</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField
@@ -101,7 +101,7 @@ export default function SignInPage() {
       <p className="text-center">Or</p>
 
       
-      <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full'}><GrGoogle/> Sign In With Google</Button>
+      <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full'}><GrGoogle/> Log In With Google</Button>
 
         <p className="mt-4 text-center">
           Don't have an account?{" "}

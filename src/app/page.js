@@ -1,6 +1,7 @@
 import BookPage from "@/components/homepage/BookPage";
 import Banner from "@/components/shared/Banner";
 import BookNews from "@/components/shared/BookNews";
+import Footer from "@/components/shared/Footer";
 ;
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
   <Banner/>
     <BookNews/>
     <BookPage></BookPage>
+    <Footer/>
     
     </div>
   );

@@ -30,7 +30,7 @@ console.log(user)
                 </Link>
 
                 <Link href={"/signin"} className="btn btn-outline">
-                    Sign In
+                    Log In
                 </Link>
             </div>
            }
@@ -46,7 +46,7 @@ console.log(user)
                 <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
               </Avatar>
 
-              <Button onClick={handleSignOut} size="sm" variant="danger">SignOut</Button>
+              <Button onClick={handleSignOut} size="sm" variant="danger">Log Out</Button>
             </div>
           )}
         </nav>
