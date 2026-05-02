@@ -47,7 +47,7 @@ const AllBookCard = ({ book }) => {
         {/* Button */}
         <div className="mt-4">
           <Link href={`/books/${id}`}>
-            <button className="w-full bg-blue-600 text-white text-sm py-2 rounded-lg hover:bg-blue-700 transition">
+            <button className="w-full bg-pink-600 text-white text-sm py-2 rounded-lg transition">
               View Details
             </button>
           </Link>
