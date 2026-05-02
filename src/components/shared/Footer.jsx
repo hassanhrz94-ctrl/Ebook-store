@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-pink-300 via-pink-400 to-pink-500 text-white">
+    <footer className="bg-pink-500 text-white">
       {/* Main Footer Grid */}
       <div className="max-w-7xl mx-auto px-6 pt-12 pb-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div>
             <h2 className="font-serif text-2xl font-semibold tracking-wide mb-2">
-              📖 PageTurner
+              📖 Ebook
             </h2>
             <p className="text-sm text-pink-100 mb-3">Your cozy corner for every story.</p>
             <p className="text-sm text-pink-100 leading-relaxed">
