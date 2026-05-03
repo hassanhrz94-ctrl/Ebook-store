@@ -4,7 +4,7 @@ import BookCard from './BookCard';
 
 
 const BookPage = async() => {
-     const res = await fetch('http://localhost:3000/data.json');
+     const res = await fetch('http://localhost:3000/data.json',{cache:"no-store"});
     const books =await res.json()
     console.log(books)
     return (
