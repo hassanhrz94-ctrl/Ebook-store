@@ -1,6 +1,8 @@
 import React from 'react';
 import BookCard from './BookCard';
 
+
+
 const BookPage = async() => {
      const res = await fetch('http://localhost:3000/data.json');
     const books =await res.json()
