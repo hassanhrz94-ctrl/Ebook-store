@@ -3,7 +3,7 @@ import React from 'react';
 
 const AllBook = async() => {
 
-     const res = await fetch('http://localhost:3000/data.json',{cache:"no-store"});
+     const res = await fetch('https://ebook-store-eta.vercel.app/data.json',{cache:"no-store"});
     const books =await res.json()
     console.log(books)
     return (
