@@ -3,7 +3,7 @@ import Image from "next/image";
 const BooksDetailsPage = async ({ params }) => {
   const { id } = await params;
 
-  const res = await fetch("http://localhost:3000/data.json");
+  const res = await fetch("https://ebook-store-eta.vercel.app/data.json",{cache:"no-store"});
   const books = await res.json();
   const book = books.find((b) => b.id === parseInt(id));
 
